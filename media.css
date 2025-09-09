@@ -1,0 +1,131 @@
+/* ===== SMALLLAPTOP SCREEN ===== */
+@media (max-width: 72rem) {
+  body {
+    /* background-color: red; */
+  }
+}
+
+/* ===== TABLET SCREEN ===== */
+@media (max-width: 51rem) {
+  body {
+    /* background-color: green; */
+  }
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background: #f4f4f4;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  .nav-links.active {
+    display: flex;
+  }
+  .hamburger {
+    display: flex;
+  }
+}
+
+/* ===== PHONE LANDSCAPE =====  43REM*/
+@media (max-width: 43rem) {
+  body {
+    /* background-color: firebrick; */
+  }
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background: #f4f4f4;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  .nav-links.active {
+    display: flex;
+  }
+  .hamburger {
+    display: flex;
+  }
+  .skills-icon-container {
+    flex-direction: column;
+  }
+}
+
+/* ===== PHONE PORTRAIT ===== 34REM */
+@media (max-width: 34rem) {
+  body {
+    /* background-color: indianred; */
+  }
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background: #0f172a;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    padding: 15px;
+    border-radius: 4px;
+
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  .nav-links.active {
+    display: flex;
+  }
+  .hamburger {
+    display: flex;
+  }
+  .hero {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .hero-text {
+    text-align: center;
+  }
+  .cta-btn ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 5px;
+  }
+  .perview-container {
+    margin-top: 90px;
+    margin-bottom: 20px;
+  }
+  .project-card {
+    display: flex;
+    flex-direction: column;
+  }
+  .card-link-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+  }
+  .skill-snapshot-container p {
+    text-align: center;
+    max-width: 350px;
+  }
+  .cta-heading {
+    text-align: center;
+  }
+  .footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
