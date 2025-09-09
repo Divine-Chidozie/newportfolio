@@ -70,7 +70,6 @@
     right: 20px;
     padding: 15px;
     border-radius: 4px;
-
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   }
   .nav-links.active {
@@ -90,8 +89,21 @@
     justify-content: center;
     flex-direction: column;
   }
+  .hero-intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-intro h1 {
+    width: 100%;
+    text-align: center;
+  }
   .hero-text {
     text-align: center;
+    width: 100%;
+  }
+  .project-description {
+    margin-bottom: 7px;
   }
   .cta-btn ul {
     display: flex;
@@ -120,6 +132,15 @@
   }
   .cta-heading {
     text-align: center;
+  }
+  .skill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    gap: 5px;
+    margin: 15px 0;
   }
   .footer-container {
     display: flex;
