@@ -19,7 +19,6 @@
       <header>
         <nav class="navbar" role="navigation" aria-label="main navigation">
           <div class="logo">
-            <!-- Rememeber to add logo later -->
             <!-- add your logo or initials -->
             <a href="index.html">Divine Chidozie</a>
           </div>
@@ -33,28 +32,45 @@
 
           <!-- nav-links -->
           <ul class="nav-links" id="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="page/about.html">About</a></li>
-            <li><a href="page/projects.html">Projects</a></li>
-            <li><a href="page/skills.html">Skills</a></li>
-            <li><a href="page/contact.html">Contact</a></li>
-            <li>
-              <a
-                href="files/Divine_Chidozie_CV.pdf"
-                target="_blank"
-                class="download-cv"
-                >View Cv 📄</a
-              >
-            </li>
+            <li><a href="index.html" class="home">Home</a></li>
+            <li><a href="#perview-section">About</a></li>
+            <li><a href="#project-section">Projects</a></li>
+            <li><a href="#skill-section-wrap">Skills</a></li>
+            <li><a href="#contact-section">Contact</a></li>
           </ul>
         </nav>
       </header>
 
       <!-- ==================== MAIN SECTION ==================== -->
-      <main>
+      <main id="main">
         <!-- ********** HERO SECTION ********** -->
-        <section>
+        <section class="">
           <div class="hero">
+            <div class="hero-container-description reveal">
+              <div class="hero-intro">
+                <h1 class="hero-heading">
+                  Hi, i'm <br />
+                  Divine Chidozie
+                </h1>
+                <p class="hero-text reveal">
+                  I craft impressive digital experiences with modern web
+                  technologies. Specializing in building responsive, performant,
+                  and accessible web applications.
+                </p>
+              </div>
+
+              <div class="cta-btn">
+                <ul>
+                  <li>
+                    <a href="" class="btn button">See My Work</a>
+                  </li>
+                  <li>
+                    <a href="" class="get-in-touch-btn button">Get in Touch</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
             <div class="profile-pic">
               <!-- Profile picture div container -->
               <img
@@ -63,142 +79,251 @@
                 alt="Image broken, profile picture image || Divine chidozie profile picture"
               />
             </div>
-
-            <div class="hero-container-description reveal">
-              <div class="hero-intro">
-                <h1 class="hero-heading">Hi, i'm Divine Chidozie</h1>
-                <p class="hero-text">
-                  Front-End Developer dedicated to creating elegant and
-                  interactive digital solutions that perform flawlessly and
-                  deliver exceptional user experiences
-                </p>
-              </div>
-
-              <div class="cta-btn">
-                <ul>
-                  <li>
-                    <a href="page/projects.html" class="btn">See My Work</a>
-                  </li>
-                  <li>
-                    <a href="page/contact.html" class="btn">Get in Touch</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
           </div>
         </section>
 
         <!-- ********** PERVIEW SECTION ********** -->
         <section id="perview-section" class="reveal">
           <div class="perview-container">
-            <p class="perview-text">
-              Turning ideas into Engaging, User-Focused websites with precision
-              and creativity
-            </p>
-
-            <!-- Dont forget to reference link to about.html  -->
-            <a href="page/about.html" class="btn">Learn More...</a>
-          </div>
-        </section>
-
-        <!-- ********** PROJECTS SECTION ********** -->
-        <section id="projects-section">
-          <!-- project div container -->
-          <div class="projects-container">
-            <div class="project-card reveal">
-              <!-- project card container -->
+            <h2 class="hero-heading">About Me</h2>
+            <p class="perview-text hero-paragrapgh">Background and Journey</p>
+            <div class="perview-about">
               <div>
-                <!-- first card image container -->
-                <!-- Rememeber to change the image to the actual project image -->
                 <img
-                  src="/images/project.jpg"
-                  alt="project one image"
-                  class="project-img"
+                  src="images/profile-picture.png"
+                  alt="about me image"
+                  class="profile-pic-img"
                 />
-                <h3 class="project-tile">Project one</h3>
-                <p class="project-description">
-                  A short description of what this project is all about
-                </p>
-                <a href="#" class="view-project">View Project</a>
               </div>
-
-              <div>
-                <!-- second card image container -->
-                <img
-                  src="/images/project.jpg"
-                  alt="project one image"
-                  class="project-img"
-                />
-                <h3 class="project-tile">Project Two</h3>
-                <p class="project-description">
-                  Another Short description of what this project is all about
+              <div class="perview-about-second reveal">
+                <h3 class="about-heading">
+                  Front-End Developer with a passion for crafting exceptional
+                  web experiences
+                </h3>
+                <p class="perview-text about-para">
+                  I'm Divine Chidozie, a passionate Front-End Developer
+                  dedicated to building clean, interactive, and user-focused web
+                  experiences. With a strong emphasis on usability, performance,
+                  and accessibility, i deliver efficient and high-quality
+                  solution. I apply a strategic approach and problem-solving
+                  mindset to every project, creating digital experiences that
+                  are engaging, reliable, and effective. Through collaboration
+                  and continuous learning, I aim to drive innovation and produce
+                  results that make a meaningful impact
                 </p>
-                <a href="#" class="view-project">View Project</a>
+                <div class="perview-about-links">
+                  <li><a href="#" class="contact-me-btn">Contact Me</a></li>
+                  <li>
+                    <a
+                      href="files/Divine_Chidozie_CV.pdf"
+                      class="download-cv-btn"
+                      target="_blank"
+                      >Download Cv</a
+                    >
+                  </li>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="card-link-container">
-            <!-- Dont forget to reference Link to projects.html -->
-            <a class="btn" href="page/projects.html">See All Projects..</a>
           </div>
         </section>
 
         <!-- ********** SKILLS-SNAPSHOT SECTION ********** -->
-        <section id="skills-section" class="reveal">
-          <div class="skill-snapshot-container">
-            <h2>Skills Snapshot</h2>
-            <p>Here are some of my key skills and technologies i work with:</p>
+        <section class="skills-wrap" id="skill-section-wrap">
+          <section id="skill-section" class="skill_container">
+            <div class="skill-snapshot-container">
+              <h2>Skills Snapshot</h2>
+              <p class="skills-technology-para">Technoglogies i work with:</p>
+            </div>
+
+            <div class="skills-icon-container skill-flex">
+              <div class="skill">
+                <img
+                  src="/images/icons8-javascript.svg"
+                  alt="javascript"
+                  class="javascript img"
+                />
+                <div class="skill-range">
+                  <p>JavaScript</p>
+                  <input
+                    type="text"
+                    disabled
+                    name="html"
+                    id="html"
+                    class="input"
+                  />
+                  <span>90%</span>
+                </div>
+              </div>
+
+              <div class="skill">
+                <img
+                  src="/images/icons8-html.svg"
+                  alt="html"
+                  class="html img"
+                />
+                <div class="skill-range">
+                  <p>Html</p>
+                  <input
+                    type="text"
+                    disabled
+                    name="html"
+                    id="html"
+                    class="input"
+                  />
+                  <span>90%</span>
+                </div>
+              </div>
+
+              <div class="skill">
+                <img src="/images/icons8-css.svg" alt="css" class="css img" />
+                <div class="skill-range">
+                  <p>Css</p>
+                  <input
+                    type="text"
+                    disabled
+                    name="css"
+                    id="css"
+                    class="input"
+                  />
+                  <span>90%</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Second skill container section -->
+            <div class="second-skill-container">
+              <div class="skill">
+                <img
+                  src="/images/icons8-bootstrap.svg"
+                  alt="bootstrap"
+                  class="bootstrap img"
+                />
+                <div class="skill-range">
+                  <p>Bootsrap</p>
+                  <input
+                    type="text"
+                    disabled
+                    name="html"
+                    id="html"
+                    class="input"
+                  />
+                  <span>80%</span>
+                </div>
+              </div>
+
+              <div class="skill">
+                <img
+                  src="/images/icons8-react.svg"
+                  alt="react"
+                  class="react img"
+                />
+                <div class="skill-range">
+                  <p>React</p>
+                  <input
+                    type="text"
+                    disabled
+                    name="html"
+                    id="html"
+                    class="input"
+                  />
+                  <span>50%</span>
+                </div>
+              </div>
+
+              <div class="skill">
+                <img
+                  src="/images/icons8-tailwind-css.svg"
+                  alt="tailwind"
+                  class="tailwind img"
+                />
+                <div class="skill-range">
+                  <p>Tailwind</p>
+                  <input
+                    type="text"
+                    disabled
+                    name="html"
+                    id="html"
+                    class="input"
+                  />
+                  <span>20%</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- third skill container section -->
+            <div class="second-skill-container">
+              <div class="skill">
+                <img src="/images/icons8-git.svg" alt="git" class="git img" />
+                <div class="skill-range">
+                  <p>Git</p>
+                  <input
+                    type="text"
+                    disabled
+                    name="html"
+                    id="html"
+                    class="input"
+                  />
+                  <span>70%</span>
+                </div>
+              </div>
+
+              <div class="skill">
+                <img
+                  src="/images/logo-github.svg"
+                  alt="github"
+                  class="javascript img"
+                />
+                <div class="skill-range">
+                  <p>Github</p>
+                  <input
+                    type="text"
+                    disabled
+                    name="html"
+                    id="html"
+                    class="input"
+                  />
+                  <span>70%</span>
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
+
+        <!-- ********** PROJECTS SECTION ********** -->
+        <section id="project-section">
+          <div class="project-section">
+            <h1 class="hero-heading">Projects</h1>
+            <p class="hero-text-project">A showcase of my works and projects</p>
           </div>
 
-          <div class="skills-icon-container">
-            <div class="skill">
-              <img
-                src="images/icons8-javascript.svg"
-                alt="javascript"
-                class="javascript img"
-              />
-              <div class="skill-range">
-                <p>JavaScript</p>
-                <input
-                  type="text"
-                  disabled
-                  name="html"
-                  id="html"
-                  class="input"
+          <div class="card-project-container reveal">
+            <div class="project-cards">
+              <!-- project one -->
+              <div class="card">
+                <img
+                  src="/images/project.jpg"
+                  alt="project one"
+                  class="project-img"
                 />
-                <span>90%</span>
+                <h3>Project one</h3>
+                <p>A short description about this project goes here.</p>
+                <a href="#" class="btn view-btn">View Projects</a>
               </div>
             </div>
 
-            <div class="skill">
-              <img src="images/icons8-html.svg" alt="html" class="html img" />
-              <div class="skill-range">
-                <p>Html</p>
-                <input
-                  type="text"
-                  disabled
-                  name="html"
-                  id="html"
-                  class="input"
+            <div class="project-cards">
+              <!-- project two -->
+              <div class="card">
+                <img
+                  src="/images/project.jpg"
+                  alt="project one"
+                  class="project-img"
                 />
-                <span>90%</span>
+                <h3>Project two</h3>
+                <p>A short description about this project goes here.</p>
+                <a href="#" class="btn view-btn">View Projects</a>
               </div>
             </div>
-
-            <div class="skill">
-              <img src="images/icons8-css.svg" alt="css" class="css img" />
-              <div class="skill-range">
-                <p>Css</p>
-                <input type="text" disabled name="css" id="css" class="input" />
-                <span>90%</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="skills-link-container">
-            <a href="/page/skills.html" class="view-project"
-              >⚡ View All Skills</a
-            >
           </div>
         </section>
 
@@ -208,7 +333,115 @@
             <h2 class="cta-heading">Let's build something amazing together</h2>
 
             <!-- Remember to reference link to contact me {contact.html} -->
-            <a href="page/contact.html" class="btn">Hire Me</a>
+            <a href="" class="btn">Hire Me</a>
+          </div>
+        </section>
+
+        <!-- ********** Contact Section ********** -->
+
+        <section id="contact-section">
+          <h1 class="hero-heading">Get in Touch</h1>
+          <p class="perview-text hero-text">
+            Have a project in mind? Let's talk!
+          </p>
+
+          <div class="Information-container">
+            <div class="info-details-container">
+              <h4 class="cta-heading contact-info">Contact Information</h4>
+              <p class="info-text perview-text">
+                Whether you have a question, want to collabrate, or just want to
+                say hi, feel free to reach out to me
+              </p>
+
+              <div class="info-container">
+                <div class="inner-info">
+                  <img
+                    class="contact-img"
+                    src="images/icons8-email-50.png"
+                    alt="email image"
+                  />
+                  <div>
+                    <p class="info-address">Email</p>
+                    <p class="info-contact">igwedivine92@gmail.com</p>
+                  </div>
+                </div>
+
+                <div class="info-container">
+                  <div class="inner-info">
+                    <img
+                      src="images/icons8-mobile-phone-50.png"
+                      alt="mobile phone image"
+                      class="contact-img"
+                    />
+                    <div>
+                      <p class="info-address">Phone</p>
+                      <p class="info-contact">+2348142443836</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="info-container">
+                  <div class="inner-info">
+                    <img
+                      src="images/icons8-location-50.png"
+                      alt="location image"
+                      class="contact-img"
+                    />
+                    <div>
+                      <p class="info-address">Location</p>
+                      <p class="info-contact">Lagos State, NG</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- social icons -->
+                <div class="social-icon-container">
+                  <a
+                    href="https://www.linkedin.com/in/divine-chidozie-48abb7363/"
+                    target="_blank"
+                  >
+                    <img
+                      src="images/logo-linkedin.svg"
+                      alt="linkedln image"
+                      class="social-icon"
+                    />
+                  </a>
+                  <a href="https://github.com/Divine-Chidozie" target="_blank">
+                    <img
+                      src="images/logo-github.svg"
+                      alt="github image"
+                      class="social-icon"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="forn-container reveal">
+              <form action="api/contact/form" method="post" id="contact-form">
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input id="name" type="text" name="name" required />
+                </div>
+
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input id="email" type="email" name="email" required />
+                </div>
+
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea
+                    name="message"
+                    id="message"
+                    rows="5"
+                    required
+                  ></textarea>
+                </div>
+
+                <button type="submit" class="btn">Send Message</button>
+              </form>
+            </div>
           </div>
         </section>
       </main>
@@ -216,36 +449,65 @@
       <!-- ==================== FOOTER SECTION ==================== -->
       <footer>
         <div class="footer-container">
-          <div class="footer-copyright">
-            <p class="footer-copyright-text">&copy; Divine Chidozie 2025</p>
+          <div class="footer-logo-para">
+            <div class="logo footer-logo">
+              <a href="index.html">Divine Chidozie</a>
+              <p class="footer-para">
+                A front-end developer passionate about creating exceptional web
+                experiences
+              </p>
+            </div>
           </div>
 
-          <div class="footer-quick-links">
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="page/about.html">About</a></li>
-              <li><a href="page/projects.html">Projects</a></li>
-              <li><a href="page/skills.html">Skills</a></li>
-              <li><a href="page/contact.html">Contact</a></li>
-            </ul>
+          <div class="footer-navigation">
+            <h4 class="footer-links-heading">Navigation</h4>
+            <nav class="footer-nav">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#perview-section">About</a></li>
+                <li><a href="#skill-section-wrap">Skills</a></li>
+                <li><a href="#project-section">Projects</a></li>
+                <li><a href="#contact-section">Contact</a></li>
+              </ul>
+            </nav>
           </div>
 
-          <div class="footer-social-media-icons">
-            <a href="https://github.com/Divine-Chidozie">
-              <img
-                src="/images/logo-github.svg"
-                alt="github image"
-                class="icon"
-              />
-            </a>
-            <a href="https://www.linkedin.com/in/divine-chidozie-48abb7363/">
-              <img
-                src="/images/logo-linkedin.svg"
-                alt="linkedin image"
-                class="icon"
-              />
-            </a>
+          <div class="footer-socials">
+            <h4 class="footer-links-heading">Socials</h4>
+            <nav class="footer-nav">
+              <ul>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/divine-chidozie-48abb7363/"
+                    target="_blank"
+                    >Linkedln</a
+                  >
+                </li>
+                <li>
+                  <a href="https://github.com/Divine-Chidozie" target="_blank"
+                    >Github</a
+                  >
+                </li>
+              </ul>
+            </nav>
           </div>
+
+          <div class="footer-contact">
+            <h4 class="footer-links-heading">Contact</h4>
+            <div class="contact-footer">
+              <p>igwedivine92@gmail.com</p>
+              <p>+2348142443836</p>
+              <p>Lagos State, NG</p>
+            </div>
+          </div>
+        </div>
+
+        <hr />
+
+        <div class="footer-copyright">
+          <p class="footer-copyright-text">
+            &copy; 2025 Divine Chidozie. All rights reserved.
+          </p>
         </div>
       </footer>
     </div>

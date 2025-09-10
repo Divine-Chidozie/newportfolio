@@ -27,6 +27,41 @@
   .hamburger {
     display: flex;
   }
+  .navbar {
+    margin: 0 -60px;
+  }
+  .hero-text,
+  .about-para {
+    width: 100%;
+  }
+  .perview-about {
+    display: flex;
+    margin-top: 20px;
+    padding: 10px;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .perview-about-second {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 10px;
+  }
+  .skills-icon-container,
+  .second-skill-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .skill {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .Information-container {
+    flex-direction: column;
+  }
+  .footer-container {
+    flex-direction: column;
+    gap: 25px;
+  }
 }
 
 /* ===== PHONE LANDSCAPE =====  43REM*/
@@ -54,12 +89,50 @@
   .skills-icon-container {
     flex-direction: column;
   }
+  .navbar {
+    margin: 0 -70px;
+  }
+  .hero-text,
+  .about-para {
+    width: 100%;
+  }
+  .perview-about {
+    display: flex;
+    margin-top: 20px;
+    padding: 10px;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .perview-about-second {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 10px;
+  }
+  .skills-icon-container,
+  .second-skill-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .card-project-container {
+    flex-direction: column;
+  }
+  .skill {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .Information-container {
+    flex-direction: column;
+  }
+  .footer-container {
+    flex-direction: column;
+    gap: 25px;
+  }
 }
 
 /* ===== PHONE PORTRAIT ===== 34REM */
 @media (max-width: 34rem) {
   body {
-    /* background-color: indianred; */
+    /* background-color: rgb(117, 92, 205); */
   }
   .nav-links {
     display: none;
@@ -67,8 +140,9 @@
     background: #0f172a;
     position: absolute;
     top: 60px;
+    width: 200px;
     right: 20px;
-    padding: 15px;
+    padding: 35px;
     border-radius: 4px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   }
@@ -78,75 +152,83 @@
   .hamburger {
     display: flex;
   }
+  .navbar {
+    margin: 0 -100px;
+    margin-right: -40px;
+  }
   .hero {
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    gap: 10px;
   }
   .hero-intro {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
-  }
-  .hero-intro {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .hero-intro h1 {
-    width: 100%;
-    text-align: center;
-  }
-  .hero-text {
     text-align: center;
     width: 100%;
-  }
-  .project-description {
-    margin-bottom: 7px;
   }
   .cta-btn ul {
     display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 30px;
-    margin-top: 5px;
-  }
-  .perview-container {
-    margin-top: 90px;
-    margin-bottom: 20px;
-  }
-  .project-card {
-    display: flex;
-    flex-direction: column;
-  }
-  .card-link-container {
-    display: flex;
-    align-items: center;
     justify-content: center;
-    margin-left: 0;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
   }
-  .skill-snapshot-container p {
+  .hero-text,
+  .about-para {
+    width: 100%;
     text-align: center;
-    max-width: 350px;
   }
-  .cta-heading {
+  .perview-about {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px;
+    align-items: center;
+    flex-direction: column;
+  }
+  .perview-about-second {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  .about-heading {
+    width: 100%;
+  }
+  .perview-about-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
     text-align: center;
+  }
+  .download-cv-btn {
+    margin-top: auto;
+    margin-left: 2px;
+  }
+  .skills-icon-container,
+  .second-skill-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .card-project-container {
+    flex-direction: column;
   }
   .skill {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
     width: 100%;
-    gap: 5px;
-    margin: 15px 0;
+    margin: 0 auto;
+  }
+  .Information-container {
+    flex-direction: column;
+  }
+  .info-details-container {
+    width: 100%;
   }
   .footer-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
-    gap: 10px;
+    gap: 25px;
   }
 }

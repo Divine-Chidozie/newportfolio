@@ -1,5 +1,6 @@
 const hamburger = document.getElementById("hamburger");
 const navLinks = document.getElementById("nav-links");
+const navBar = document.querySelector(".navbar");
 
 // ===================== TOGGLE MENU =====================
 hamburger.addEventListener("click", () => {
@@ -66,4 +67,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Run scroll animation on load
   revealOnScroll();
+});
+
+// Navbar background on scroll
+window.addEventListener("scroll", () => {
+  const navbar = document.querySelector(".navbar");
+  if (window.scrollY > 50) {
+    navbar.classList.add("scrolled");
+  } else {
+    navbar.classList.remove("scrolled");
+  }
 });
