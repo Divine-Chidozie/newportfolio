@@ -257,16 +257,14 @@
   }
   .skill-range input {
     padding: 0 !important;
-    margin: 0 20px;
-    margin-right: 20px !important;
+    margin: 0 10px;
+    margin-right: 40px !important;
   }
   .skill-range p {
-    margin: 0 20px;
-    margin-right: 20px !important;
+    margin: 0 10px;
   }
   .skill-range span {
-    margin: 0 20px;
-    margin-right: 20px !important;
+    margin: 0 10px;
   }
   .sumbit {
     margin-left: -30px;
