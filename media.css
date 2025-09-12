@@ -211,18 +211,15 @@
   }
   .contact-info {
     font-size: 15px;
-    margin-left: -10px;
+    margin-left: -30px;
   }
   .contact-text {
     font-size: 13px;
     width: 100% !important;
     line-height: 20px;
-    margin-left: -10px;
+    margin-left: -30px;
   }
-  .footer-copyright {
-    margin-left: 30px;
-    margin-bottom: 10px;
-  }
+
   .info-details-container {
     width: 100%;
     background-color: none !important;
@@ -232,20 +229,27 @@
     box-shadow: none !important;
   }
   .info-container {
-    margin-left: -10px;
+    margin-left: -20px;
   }
   .first-image {
-    margin-left: -10px;
+    margin-left: -20px;
   }
   .social-icon-container {
-    margin-left: -10px;
+    margin-left: -20px;
   }
   .form-group {
     width: 100%;
   }
+  label {
+    margin-left: -20px;
+  }
   input,
   textarea {
     width: 100% !important;
+    margin-left: -20px;
+  }
+  .sumbit {
+    margin-left: -20px;
   }
   .footer-logo {
     margin-left: 5px;
@@ -257,6 +261,10 @@
   .footer-para {
     font-size: 14px;
     margin-left: -5px;
+  }
+  .footer-copyright {
+    margin-left: 30px;
+    margin-bottom: 10px;
   }
   .text {
     font-size: 15px !important;
