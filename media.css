@@ -243,11 +243,13 @@
   label {
     margin-left: -30px;
   }
-  input,
-  textarea {
+  .input {
     width: 100% !important;
+    padding: 10px 20px !important;
+  }
+  .form-group input,
+  .form-group textarea {
     margin-left: -30px;
-    padding: 0 250px !important;
   }
   .sumbit {
     margin-left: -30px;
