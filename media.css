@@ -105,6 +105,10 @@
     align-items: baseline;
     flex-direction: column;
   }
+  .new-hero-heading {
+    text-align: center;
+    margin-left: -30px !important;
+  }
   .hero-heading {
     width: 100%;
     text-align: center !important;
@@ -131,6 +135,9 @@
   }
   .cta-btn a {
     font-size: 14px;
+  }
+  .btn-cta {
+    margin-left: -20px;
   }
   .profile-pic {
     margin-top: 4rem;
