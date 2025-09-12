@@ -66,6 +66,11 @@
 
 /* ===== PHONE PORTRAIT ===== 34REM */
 @media (max-width: 600px) {
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
   .nav-links {
     display: none;
     flex-direction: column;
