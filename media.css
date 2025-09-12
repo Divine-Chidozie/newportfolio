@@ -105,9 +105,10 @@
   .hero-heading {
     width: 100%;
     text-align: center;
-    font-size: 18px !important;
+    font-size: 20px !important;
     margin: auto;
     margin-left: -20px;
+    letter-spacing: unset;
   }
   .hero-text {
     margin: auto;
@@ -123,6 +124,10 @@
     align-items: center;
     flex-direction: column;
     gap: 35px;
+    margin-left: -20px;
+  }
+  .cta-btn a {
+    font-size: 15px;
   }
   .profile-pic {
     margin-top: 4rem;
