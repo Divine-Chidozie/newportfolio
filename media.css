@@ -209,7 +209,7 @@
   .build {
     font-size: 14px !important;
     text-align: center;
-    width: 40%;
+    width: 70%;
   }
   .get-in-touch {
     font-size: 14px !important;
@@ -218,5 +218,14 @@
   .hero-text {
     margin-top: 8px;
     font-size: 13px !important;
+  }
+  .contact-info {
+    color: red;
+    font-size: 15px;
+  }
+  .contact-text {
+    color: orangered;
+    font-size: 13px;
+    width: 100% !important;
   }
 }
