@@ -111,7 +111,7 @@
     letter-spacing: unset;
   }
   .hero-text {
-    margin: auto;
+    /* margin: auto; */
     text-align: center;
     font-size: 15px !important;
     width: 100% !important;
@@ -127,14 +127,21 @@
     margin-left: -20px;
   }
   .cta-btn a {
-    font-size: 15px;
+    font-size: 14px;
   }
   .profile-pic {
     margin-top: 4rem;
   }
-  .hero-paragrapgh {
-    font-size: 17px;
+  .perview-container h2 {
+    margin-left: -20px !important;
+    font-size: 18px !important;
   }
+  .hero-paragrapgh {
+    font-size: 15px !important;
+    margin-top: 15px;
+    margin-left: -20px !important;
+  }
+
   .perview-about {
     display: flex;
     align-items: center;
@@ -145,11 +152,12 @@
   .about-heading {
     text-align: center;
     width: 100%;
+    font-size: 18px;
   }
   .about-para {
-    width: 100%;
-    text-align: center;
-    font-size: 17px;
+    /* width: 100%; */
+    /* text-align: center; */
+    font-size: 15px;
   }
   .perview-about-links {
     margin: 10px auto;
