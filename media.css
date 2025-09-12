@@ -1,12 +1,12 @@
 /* ===== SMALLLAPTOP SCREEN ===== */
-@media (max-width: 72rem) {
+@media (max-width: 1152px) {
   body {
     /* background-color: red; */
   }
 }
 
 /* ===== TABLET SCREEN ===== */
-@media (max-width: 51rem) {
+@media (max-width: 816px) {
   body {
     /* background-color: green; */
   }
@@ -64,75 +64,9 @@
   }
 }
 
-/* ===== PHONE LANDSCAPE =====  43REM*/
-@media (max-width: 43rem) {
-  body {
-    /* background-color: firebrick; */
-  }
-  .nav-links {
-    display: none;
-    flex-direction: column;
-    background: #f4f4f4;
-    position: absolute;
-    top: 60px;
-    right: 20px;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  }
-  .nav-links.active {
-    display: flex;
-  }
-  .hamburger {
-    display: flex;
-  }
-  .skills-icon-container {
-    flex-direction: column;
-  }
-  .navbar {
-    margin: 0 -70px;
-  }
-  .hero-text,
-  .about-para {
-    width: 100%;
-  }
-  .perview-about {
-    display: flex;
-    margin-top: 20px;
-    padding: 10px;
-    align-items: flex-start;
-    flex-direction: column;
-  }
-  .perview-about-second {
-    display: flex;
-    align-items: flex-start;
-    margin-left: 10px;
-  }
-  .skills-icon-container,
-  .second-skill-container {
-    flex-direction: column;
-    gap: 20px;
-  }
-  .card-project-container {
-    flex-direction: column;
-  }
-  .skill {
-    width: 100%;
-    margin: 0 auto;
-  }
-  .Information-container {
-    flex-direction: column;
-  }
-  .footer-container {
-    flex-direction: column;
-    gap: 25px;
-  }
-}
-
 /* ===== PHONE PORTRAIT ===== 34REM */
-@media (max-width: 34rem) {
+@media (max-width: 600px) {
   body {
-    /* background-color: rgb(117, 92, 205); */
   }
   .nav-links {
     display: none;
@@ -151,84 +85,117 @@
   }
   .hamburger {
     display: flex;
+    margin-right: 20px;
   }
-  .navbar {
-    margin: 0 -100px;
-    margin-right: -40px;
+  .logo {
+    margin-left: -50px;
   }
   .hero {
+    /* background-color: red; */
+    display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    gap: 10px;
+    overflow-x: hidden;
   }
   .hero-intro {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    align-items: baseline;
     flex-direction: column;
-    text-align: center;
+    /* background-color: green; */
+  }
+  .hero-heading {
     width: 100%;
+    text-align: center;
+    font-size: 28px;
+    margin: auto;
+  }
+  .hero-text {
+    margin: auto;
+    text-align: center;
+    font-size: 18px !important;
+    width: 100% !important;
+    margin-top: 20px;
   }
   .cta-btn ul {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 40px;
+    gap: 35px;
   }
-  .hero-text,
-  .about-para {
-    width: 100%;
-    text-align: center;
+  .profile-pic {
+    margin-top: 4rem;
+  }
+  .hero-paragrapgh {
+    font-size: 17px;
   }
   .perview-about {
     display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    padding: 10px;
     align-items: center;
-    flex-direction: column;
   }
-  .perview-about-second {
-    display: flex;
-    align-items: center;
-    margin-left: 10px;
+  .profile-pic-img {
+    margin-top: 10px;
   }
   .about-heading {
+    text-align: center;
     width: 100%;
+  }
+  .about-para {
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
   }
   .perview-about-links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: 10px auto;
+    display: inline-flex;
     flex-direction: column;
     gap: 20px;
-    text-align: center;
+  }
+  .perview-about-links li {
+    margin: auto;
+  }
+  .perview-about-links a {
+    font-size: 15px;
   }
   .download-cv-btn {
-    margin-top: auto;
-    margin-left: 2px;
+    margin-left: 7px;
   }
-  .skills-icon-container,
-  .second-skill-container {
-    flex-direction: column;
-    gap: 20px;
+  .skill-snapshot-container h2 {
+    font-size: 22px;
   }
-  .card-project-container {
-    flex-direction: column;
+  .skill-snapshot-container p {
+    font-size: 18px;
   }
   .skill {
+    box-sizing: border-box;
+  }
+  .hero-heading {
+    font-size: 28px;
+    margin-bottom: -15px;
+  }
+  .hero-text-project {
+    font-size: 18px;
+  }
+  .card-project-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .project-cards {
     width: 100%;
-    margin: 0 auto;
+    background-color: greenyellow;
+  }
+  .card {
+    width: 100%;
   }
   .Information-container {
-    flex-direction: column;
+    width: 100%;
   }
   .info-details-container {
     width: 100%;
   }
-  .footer-container {
-    flex-direction: column;
-    gap: 25px;
+  .footer-copyright {
+    margin-left: 30px;
+    margin-bottom: 10px;
   }
 }
