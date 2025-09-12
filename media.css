@@ -225,6 +225,11 @@
   }
   .info-details-container {
     width: 100%;
+    background-color: none !important;
+    box-shadow: none !important;
+  }
+  .forn-container {
+    box-shadow: none !important;
   }
   .info-container {
     margin-left: -10px;
@@ -254,7 +259,7 @@
     margin-left: -5px;
   }
   .text {
-    font-size: 16px !important;
+    font-size: 15px !important;
     line-height: 22px;
   }
 }
