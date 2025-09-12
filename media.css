@@ -242,4 +242,19 @@
   textarea {
     width: 100% !important;
   }
+  .footer-logo {
+    margin-left: 5px;
+  }
+  .footer-name {
+    font-size: 16px !important;
+    margin-left: -5px;
+  }
+  .footer-para {
+    font-size: 14px;
+    margin-left: -5px;
+  }
+  .text {
+    font-size: 16px !important;
+    line-height: 22px;
+  }
 }
