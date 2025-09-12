@@ -211,13 +211,13 @@
   }
   .contact-info {
     font-size: 15px;
-    margin-left: -30px;
+    margin-left: -50px;
   }
   .contact-text {
     font-size: 13px;
     width: 100% !important;
     line-height: 20px;
-    margin-left: -30px;
+    margin-left: -50px;
   }
 
   .info-details-container {
@@ -229,27 +229,28 @@
     box-shadow: none !important;
   }
   .info-container {
-    margin-left: -20px;
+    margin-left: -30px;
   }
   .first-image {
-    margin-left: -20px;
+    margin-left: -30px;
   }
   .social-icon-container {
-    margin-left: -20px;
+    margin-left: -30px;
   }
-  .form-group {
-    width: 100%;
+  #contact-form {
+    width: 100% !important;
   }
   label {
-    margin-left: -20px;
+    margin-left: -30px;
   }
   input,
   textarea {
     width: 100% !important;
-    margin-left: -20px;
+    margin-left: -30px;
+    padding: 0 250px !important;
   }
   .sumbit {
-    margin-left: -20px;
+    margin-left: -30px;
   }
   .footer-logo {
     margin-left: 5px;
