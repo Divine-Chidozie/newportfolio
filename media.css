@@ -258,6 +258,7 @@
   .skill-range input {
     padding: 0 !important;
     margin: 0 20px;
+    margin-right: 10px;
   }
   .skill-range p {
     margin: 0 20px;
