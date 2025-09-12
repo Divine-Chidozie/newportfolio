@@ -210,23 +210,36 @@
     font-size: 13px !important;
   }
   .contact-info {
-    color: red;
     font-size: 15px;
+    margin-left: -10px;
   }
   .contact-text {
-    color: orangered;
     font-size: 13px;
     width: 100% !important;
     line-height: 20px;
+    margin-left: -10px;
   }
   .footer-copyright {
     margin-left: 30px;
     margin-bottom: 10px;
   }
-  .Information-container {
-    background-color: greenyellow;
-  }
   .info-details-container {
     width: 100%;
+  }
+  .info-container {
+    margin-left: -10px;
+  }
+  .first-image {
+    margin-left: -10px;
+  }
+  .social-icon-container {
+    margin-left: -10px;
+  }
+  .form-group {
+    width: 100%;
+  }
+  input,
+  textarea {
+    width: 100% !important;
   }
 }
