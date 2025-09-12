@@ -209,15 +209,11 @@
   .get-in-touch {
     font-size: 14px !important;
     margin-bottom: -30px;
-    color: red;
-    margin-left: -30px;
-    width: 100%;
-    /* margin: auto; */
+    margin-left: -25px;
   }
   .hero-text {
     margin-top: 8px;
     font-size: 13px !important;
-    color: red;
   }
   .contact-info {
     font-size: 15px;
@@ -251,7 +247,7 @@
     width: 100% !important;
   }
   label {
-    margin-left: -30px;
+    margin-left: -40px;
   }
   .input {
     width: 100% !important;
@@ -259,7 +255,7 @@
   }
   .form-group input,
   .form-group textarea {
-    margin-left: -30px;
+    margin-left: -40px;
     padding: 20px 20px !important;
   }
   .form-group textarea {
@@ -277,7 +273,7 @@
     margin: 0 10px;
   }
   .sumbit {
-    margin-left: -30px;
+    margin-left: -40px;
   }
   .footer-logo {
     margin-left: 5px;
@@ -293,6 +289,11 @@
   .footer-copyright {
     margin-left: 30px;
     margin-bottom: 10px;
+  }
+  .footer-links-heading,
+  .footer-links-heading,
+  .footer-links-heading {
+    font-size: 14px;
   }
   .text {
     font-size: 15px !important;
