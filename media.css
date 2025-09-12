@@ -196,16 +196,6 @@
   .card {
     width: 100%;
   }
-  .Information-container {
-    width: 100%;
-  }
-  .info-details-container {
-    width: 100%;
-  }
-  .footer-copyright {
-    margin-left: 30px;
-    margin-bottom: 10px;
-  }
   .build {
     font-size: 14px !important;
     text-align: center;
@@ -227,5 +217,16 @@
     color: orangered;
     font-size: 13px;
     width: 100% !important;
+    line-height: 20px;
+  }
+  .footer-copyright {
+    margin-left: 30px;
+    margin-bottom: 10px;
+  }
+  .Information-container {
+    background-color: greenyellow;
+  }
+  .info-details-container {
+    width: 100%;
   }
 }
