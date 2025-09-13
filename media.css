@@ -324,10 +324,23 @@
   .footer-links-heading,
   .footer-links-heading,
   .footer-links-heading {
-    font-size: 14px;
+    font-size: 13px;
   }
   .text {
     font-size: 15px !important;
     line-height: 22px;
+  }
+  .footer-copyright-text {
+    font-size: 14px;
+  }
+  .contact-footer p,
+  .footer-nav ul a {
+    color: red;
+    font-size: 12px;
+  }
+  .info-address,
+  .info-contact {
+    color: green;
+    font-size: 12px;
   }
 }
