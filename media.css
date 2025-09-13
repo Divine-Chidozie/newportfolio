@@ -1,7 +1,31 @@
 /* ===== SMALLLAPTOP SCREEN ===== */
-@media (max-width: 1152px) {
-  body {
-    /* background-color: red; */
+@media screen and (min-width: 816px) and (max-width: 1151px) {
+  .hero {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+  }
+  .perview-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+  }
+  .perview-about {
+    margin-top: 60px;
+  }
+  .skills-icon-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  .second-skill-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
   }
 }
 
