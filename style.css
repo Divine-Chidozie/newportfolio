@@ -44,6 +44,7 @@ body.fade-in {
 .perview-text,
 .hero-text-project {
   color: var(--paragraph-text-color);
+  margin-top: 5px;
 }
 
 /* ========== HEADER SECTION ========== */
@@ -112,6 +113,11 @@ body.fade-in {
   gap: 20px;
   margin-top: 80px;
 }
+.hero {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
 .profile-pic-img {
   width: 250px;
   object-fit: contain;
@@ -170,7 +176,7 @@ body.fade-in {
   border-radius: 4px;
 }
 .button {
-  font-size: 16px;
+  font-size: 14px;
 }
 /* ==================== PREVIEW SECTION ==================== */
 /* ***** perview section ***** --> */
