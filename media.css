@@ -123,13 +123,18 @@
   }
   .hamburger {
     display: flex;
+    background-color: green;
+    margin-right: -20px;
   }
   .logo {
     margin-left: -5px;
+    background-color: green;
+    margin-left: -20px;
   }
   .navbar {
     margin-right: -30px;
     margin-left: -80px;
+    background-color: red;
   }
   .hero {
     display: flex;
