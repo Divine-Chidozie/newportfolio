@@ -28,7 +28,18 @@
     gap: 40px;
   }
 }
-
+@media screen and (min-width: 820px) and (max-width: 1022px) {
+  .perview-about-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .download-cv-btn {
+    margin-left: 2px;
+  }
+}
 /* ===== TABLET SCREEN ===== */
 @media (max-width: 816px) {
   body {
@@ -112,10 +123,13 @@
   }
   .hamburger {
     display: flex;
-    margin-right: 20px;
   }
   .logo {
-    margin-left: -50px;
+    margin-left: -5px;
+  }
+  .navbar {
+    margin-right: -30px;
+    margin-left: -80px;
   }
   .hero {
     display: flex;
@@ -335,12 +349,10 @@
   }
   .contact-footer p,
   .footer-nav ul a {
-    color: red;
     font-size: 12px;
   }
   .info-address,
   .info-contact {
-    color: green;
     font-size: 12px;
   }
 }
