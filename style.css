@@ -489,6 +489,15 @@ span {
 .project-section h3 {
   font-size: 28px;
 }
+.project-lang-container {
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.project-lang {
+  background-color: #1f2937;
+  padding: 5px 10px;
+}
 /* ***** call-to-action section ***** --> */
 .call-to-action-container {
   padding: 20px;
