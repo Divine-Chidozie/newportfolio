@@ -357,4 +357,10 @@
   .info-contact {
     font-size: 12px;
   }
+  .name-error,
+  .email-error,
+  .message-error {
+ 
+    margin-left: -38px;
+  }
 }
