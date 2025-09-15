@@ -565,7 +565,13 @@ span {
   align-self: flex-start;
   border: 2px solid var(--button-background);
 }
-
+.name-error,
+.email-error,
+.message-error {
+  color: rgb(220, 6, 6);
+  font-size: 13px;
+  margin-top: -10px;
+}
 /* ********** information container section ********** */
 .Information-container {
   display: flex;

@@ -2,6 +2,17 @@ const hamburger = document.getElementById("hamburger");
 const navLinks = document.getElementById("nav-links");
 const navBar = document.querySelector(".navbar");
 
+const contactForm = document.getElementById("contact-form");
+
+const nameField = document.getElementById("name");
+const nameError = document.querySelector(".name-error");
+
+const emailField = document.getElementById("email");
+const emailError = document.querySelector(".email-error");
+
+const messageField = document.getElementById("message");
+const messageError = document.querySelector(".message-error");
+
 // ===================== TOGGLE MENU =====================
 hamburger.addEventListener("click", () => {
   navLinks.classList.toggle("active");
@@ -76,5 +87,59 @@ window.addEventListener("scroll", () => {
     navbar.classList.add("scrolled");
   } else {
     navbar.classList.remove("scrolled");
+  }
+});
+
+// =============== Contact Form ===============
+
+function clearName() {
+  nameError.textContent = "";
+}
+
+function clearEmail() {
+  emailError.textContent = "";
+}
+
+function clearMessage() {
+  messageError.textContent = "";
+}
+
+nameField.addEventListener("input", clearName);
+emailField.addEventListener("input", clearEmail);
+messageField.addEventListener("input", clearMessage);
+
+contactForm.addEventListener("submit", (e) => {
+  e.preventDefault();
+
+  const name = nameField.value.trim();
+  const email = emailField.value.trim();
+  const message = messageField.value.trim();
+
+  let isValid = true;
+
+  const clearErrors = () => {
+    nameError.textContent = "";
+    emailError.textContent = "";
+    messageError.textContent = "";
+  };
+  clearErrors();
+
+  if (!name) {
+    nameError.textContent = `Please enter your name`;
+    isValid = false;
+  }
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+    emailError.textContent = `Please enter a valid email address`;
+    isValid = false;
+  }
+  if (!message) {
+    messageError.textContent = `Please enter your message`;
+    isValid = false;
+  }
+
+  if (isValid) {
+    console.log(`Name: ${name}\nEmail: ${email}\nMessage ${message}`);
+    alert("form submitted sucessfully");
+    contactForm.reset();
   }
 });
