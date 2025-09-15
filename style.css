@@ -556,7 +556,9 @@ span {
 }
 .form-group textarea {
   padding: 40px 5px !important;
+  height: unset;
 }
+
 .form-group input:focus,
 .form-group textarea:focus {
   border: 2px solid var(--button-background);
