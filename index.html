@@ -73,10 +73,10 @@
 
             <div class="profile-pic">
               <!-- Profile picture div container -->
-              <!-- Add profile picture later for hero section -->
+
               <img
                 class="profile-pic-img"
-                src="images/hero-image.png"
+                src="images/hero-profile-picture.png"
                 alt="hero profile picture"
               />
             </div>
@@ -91,7 +91,7 @@
             <div class="perview-about">
               <div>
                 <img
-                  src="images/about-image.png"
+                  src="images/about-picture.png"
                   alt="about me image"
                   class="profile-pic-img"
                 />
@@ -228,7 +228,7 @@
                     id="react"
                     class="input"
                   />
-                  <span>50%</span>
+                  <span>30%</span>
                 </div>
               </div>
 
@@ -320,12 +320,24 @@
                   <span class="project-lang">Css</span>
                   <span class="project-lang">JavaScript</span>
                 </div>
-                <a
-                  href="https://paucek-delivery.vercel.app/"
-                  target="_blank"
-                  class="btn view-btn"
-                  >View Project</a
-                >
+                <div class="view-project-source-code">
+                  <a
+                    href="https://paucek-delivery.vercel.app/"
+                    target="_blank"
+                    class="btn view-btn"
+                    >View Project</a
+                  >
+                  <a
+                    href="https://github.com/Divine-Chidozie/paucek-delivery"
+                    target="_blank"
+                  >
+                    <img
+                      src="images/logo-github.svg"
+                      alt="view source code on Github"
+                      class="view-project-icon"
+                    />
+                  </a>
+                </div>
               </div>
             </div>
 
@@ -350,12 +362,24 @@
                   <span class="project-lang">Bootsrap</span>
                   <span class="project-lang">Css</span>
                 </div>
-                <a
-                  href="https://www.acedigitalmarketingco.com/"
-                  target="_blank"
-                  class="btn view-btn"
-                  >View Project</a
-                >
+                <div class="view-project-source-code">
+                  <a
+                    href="https://www.acedigitalmarketingco.com/"
+                    target="_blank"
+                    class="btn view-btn"
+                    >View Project</a
+                  >
+                  <a
+                    href="https://github.com/Ace-Digital-Co/ace-web"
+                    target="_blank"
+                  >
+                    <img
+                      src="images/logo-github.svg"
+                      alt="view project source code on Github"
+                      class="view-project-icon"
+                    />
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -452,7 +476,12 @@
             </div>
 
             <div class="forn-container reveal">
-              <form action="api/contact/form" method="post" id="contact-form">
+              <form
+                action="mailto:igwedivine92@gmail.com"
+                method="post"
+                id="contact-form"
+                enctype="text/plain"
+              >
                 <div class="form-group">
                   <label for="name">Name</label>
                   <input id="name" type="text" name="name" class="input" />
@@ -471,7 +500,7 @@
                     class="input"
                     name="message"
                     id="message"
-                    rows="3"
+                    rows="3  "
                   ></textarea>
                 </div>
                 <div class="message-error"></div>

@@ -139,7 +139,6 @@ contactForm.addEventListener("submit", (e) => {
 
   if (isValid) {
     console.log(`Name: ${name}\nEmail: ${email}\nMessage ${message}`);
-    alert("form submitted sucessfully");
     contactForm.reset();
   }
 });

@@ -121,7 +121,7 @@ body.fade-in {
 .profile-pic-img {
   width: 250px;
   object-fit: contain;
-  margin-top: -130px;
+  margin-top: -60px;
 }
 .hero-container-description {
   display: flex;
@@ -497,6 +497,22 @@ span {
 .project-lang {
   background-color: #1f2937;
   padding: 5px 10px;
+}
+.view-project-source-code {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.view-project-icon {
+  width: 30px;
+  margin-bottom: -5px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.view-project-icon:hover {
+  background: #0ea5e9;
+  border-radius: 15px;
 }
 /* ***** call-to-action section ***** --> */
 .call-to-action-container {
